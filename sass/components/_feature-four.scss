@@ -1,0 +1,56 @@
+@use '../util/' as u;
+
+
+.feature4{
+
+    &__wrapper{
+        display: flex;
+        gap: u.rem(120);
+    }
+
+    .feature4_wrapper_text-sec{
+
+
+        .inner_text_container{
+            display: flex;
+
+            .div1{
+                .img_logo{
+                    margin: u.rem(40) u.rem(63) u.rem(32) 0;
+                }
+
+                .line{
+                    margin-inline-start: u.rem(32);
+                }
+                
+            }
+        }
+
+
+        .inner_text_div{
+            .div2:first-child{
+                margin-block: u.rem(65) u.rem(60);
+
+                h4{
+                    padding-block-end: u.rem(21);
+                }
+            }
+            .div2:nth-child(2){
+                margin-block: u.rem(100) u.rem(60);
+
+                h4{
+                    padding-block-end: u.rem(21);
+                }
+            }
+
+            .div2:nth-child(3){
+                margin-block: u.rem(100) u.rem(60);
+
+                h4{
+                    padding-block-end: u.rem(21);
+                }
+            }
+        }
+    }
+
+}
