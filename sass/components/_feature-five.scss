@@ -1,0 +1,77 @@
+@use '../util/' as u;
+
+
+.feature5{
+
+    background-color: var(--c-white);
+    padding-block: u.rem(228) u.rem(206);
+
+    &__wrapper{
+        position: relative;
+        display: flex;
+        gap: u.rem(103);
+
+
+        .img_section{
+
+            .arrow{
+                display: flex;
+                gap: u.rem(38);
+                padding-block-start: u.rem(38);
+            
+            }
+        }
+
+        // position_section
+        .position_section{
+            display: flex;
+            gap: u.rem(57);
+            position: absolute;
+            top: u.rem(218);
+            left: u.rem(257);
+
+
+            .text_container{
+                display: flex;
+                flex-direction: column;
+                padding-inline: u.rem(150) u.rem(44);
+                background-color: var(--c-black);
+                width: u.rem(600);
+                justify-content: center;
+                
+                h1{
+                    padding-block-start: u.rem(44);
+                    color: var(--c-white);
+                    font-size: u.rem(150);
+                    line-height: 1.2;
+                }
+
+                .description{
+                    color: var(--c-white);
+                    padding-block-end: u.rem(70); 
+                    line-height: 165.72%;
+                }
+
+                .profile_section{
+                    display: flex;
+                    align-items: center;
+                    gap: u.rem(24);
+                    padding-block-end: u.rem(130);
+
+
+                    .name{
+                        color: var(--c-white);
+                        font-weight: var(--fw-semi-bold)
+                    }
+
+                }
+
+            }
+        }
+
+    }
+
+
+
+
+}
