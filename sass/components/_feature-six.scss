@@ -1,0 +1,50 @@
+@use '../util/' as u;
+
+.feature6{
+
+
+    &__wrapper{
+        width: u.rem(979);
+        margin-inline: auto;
+        text-align: center;
+        padding-inline: u.rem(65);
+
+        h3{
+            padding-block-end: u.rem(51);
+        }
+
+        p{
+            padding-block-end: u.rem(115);
+        }
+
+        .email_container{
+            position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            box-shadow: 0 -30px 40px rgba($color: #000000, $alpha: 0.1);
+            padding: u.rem(10);
+            
+
+            .email_input{
+                padding-inline-start: u.rem(92);
+                border: none;
+                position: relative;
+                
+            }
+
+            a{
+                padding: u.rem(28) u.rem(79);
+
+            }
+
+            img{
+                position: absolute;
+                top: u.rem(43);
+                left: u.rem(80);
+            }
+        }
+
+    }
+}
